@@ -1,0 +1,16 @@
+# 处理 MaxMind GeoIPLite2的数据
+
+
+## 说明
+
+./data 目录里面存放需要处理的数据
+./dist 目录存放生成的数据，注意！每次运行程序dist会被清空
+
+geolite2csv.py
+
+--------------
+
+1. 生成continents.json和countries.json，格式详见代码注释
+2. 生成的json数据可以使用 `mongoimport -d [dbname] -c [collectionname] /path/to/data.json` 导入Mongo
+    
+

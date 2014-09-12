@@ -1,0 +1,10 @@
+geoname_id,continent_code,continent_name,country_iso_code,country_name,subdivision_iso_code,subdivision_name,city_name,metro_code,time_zone
+1862415,AS,Asia,JP,Japan,34,Hiroshima,Hiroshima,,Asia/Tokyo
+1809858,AS,Asia,CN,China,44,Guangdong,Guangzhou,,Asia/Shanghai
+1809858,AS,Asia,CN,China,44,Guangdong,Shenzheng,,Asia/Shanghai
+1850147,AS,Asia,JP,Japan,13,"Tōkyō",Tokyo,,Asia/Tokyo
+1814991,AS,Asia,CN,China,,,,,
+2077456,OC,Oceania,AU,Australia,,,,,
+2152593,OC,Oceania,AU,Australia,VIC,Victoria,Prahran,,Australia/Melbourne
+1605651,AS,Asia,TH,Thailand,,,,,Asia/Bangkok
+1609350,AS,Asia,TH,Thailand,10,Bangkok,Bangkok,,Asia/Bangkok
