@@ -59,7 +59,7 @@ def parse_country_city(row):
             '12': {
                 'name_en': 'zhejiang',
                 'code': '12',
-                'citys': ['Ningbo', 'Hangzhou']
+                'cities': ['Ningbo', 'Hangzhou']
             }
         },
     }
@@ -113,7 +113,7 @@ def _cache_country(row):
             subd_code: {
                 'name_en': subd_name,
                 'code': subd_code,
-                'citys': [city_name]
+                'cities': [city_name]
             }
         }
     }
@@ -128,14 +128,14 @@ def _cache_country(row):
 
 def _update_subds(subd_code, old_subds, data):
     if subd_code in old_subds.keys():
-        city = data['citys'][0]
+        city = data['cities'][0]
         try:
-            old_citys = old_subds[subd_code]['citys']
+            old_cities = old_subds[subd_code]['cities']
         except:
             import pdb
             pdb.set_trace()
-        if city not in old_citys:
-            old_citys.append(city)
+        if city not in old_cities:
+            old_cities.append(city)
     else:
         old_subds[subd_code] = data
     return old_subds
